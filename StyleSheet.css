@@ -1,0 +1,203 @@
+﻿.container {
+    display: grid;
+    grid-gap: 15px 20px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(35, 50px);
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+   
+}
+.grid-item-1 {
+    display: flex;
+    flex-direction:column;
+    grid-column: 1 / 13;
+    grid-row: 1 / 10;
+    background-image: url('images/path2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .5;
+    border: 20px solid lightgreen;
+    border-radius: 20px;
+}
+
+#curious {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+#name {
+    display:flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    color:antiquewhite;
+}
+#title {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    color: antiquewhite;
+}
+#bio {
+    /*display: flex;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    text-align:center;
+    color: antiquewhite;
+    margin:25px;
+}
+
+
+.grid-item-2 {
+    display:flex;
+   grid-column: 2 / 12;
+   grid-row: 11 / 13;
+   background-color:palegoldenrod;
+   border: 10px solid lightgreen;
+   border-radius:10px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 50px;
+   justify-content:center;
+   text-align:center;
+   padding:2px;
+}
+.lucky {
+    display: flex;
+    grid-column: 2 / 7;
+    grid-row: 14 / 21;
+    border-radius: 10px;
+    border: 10px solid lightgreen;
+    background-image: url('images/lottery.jpg');
+    background-size: cover;
+    opacity: .7;
+}
+#ln {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size:40px;
+    color:white;
+    justify-content: center;
+    text-align: center;
+}
+#lnp {
+    display:flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size:25px;
+    color:white;
+    justify-content:center;
+    text-align:center;
+}
+#click {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+}
+#link {
+    font-size: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+
+#luckyno {
+    width:100%;
+    height:100%;
+}
+
+.pets {
+    background-image: url('images/vppets.png');
+    grid-column: 7 / 12;
+    grid-row: 17 / 24;
+    display: flex;
+    border-radius: 10px;
+    border: 10px solid lightgreen;
+    background-size: cover;
+}
+#vp {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+}
+#vpp {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
+#click1 {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: auto;
+}
+#link2 {
+    font-size: 25px;
+    display: flex;
+    align-items: flex-end;      
+}
+#petscode {
+    width: 100%;
+    height: 100%;
+}
+.villa {
+    background-image: url('images/villaport.png');
+    grid-column: 2 / 12;
+    grid-row: 25 / 32;
+    display: flex;
+    border-radius: 10px;
+    border: 10px solid lightgreen;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#tvcode {
+    width: 100%;
+    height: 100%;
+}
+#tvp {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    color:white;
+}
+
+.grid-item-6 {
+    display:flex;
+    background-color: palegoldenrod;
+    border: 10px solid lightgreen;
+    border-radius: 10px;
+    grid-column: 3 / 11;
+    grid-row: 32 / 35;
+}
+#head {
+  
+    margin-top:25px;
+    margin-left:100px;
+    margin-right: 50px;
+    height:120px;
+    width:120px;
+}
+.info {
+    margin-top:20px;
+    margin-left:20px;
+    padding-bottom:50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
